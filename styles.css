@@ -79,6 +79,13 @@ footer.site a:hover{color:var(--text)}
 .legal h2{font-size:20px;margin:28px 0 8px}
 .legal p,.legal li{color:var(--muted);font-size:15px}
 .legal .updated{font-size:13.5px;color:var(--muted);margin-bottom:22px}
+.tablewrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel)}
+.price{width:100%;border-collapse:collapse;font-size:15px}
+.price th,.price td{padding:12px 16px;border-bottom:1px solid var(--line);text-align:left}
+.price th{background:rgba(59,130,246,.12);font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.price td:last-child{white-space:nowrap;font-weight:700;color:var(--brand-2);text-align:right}
+.price tr:last-child td{border-bottom:none}
+.note{border-left:3px solid var(--brand);padding:2px 0 2px 14px;color:var(--muted);font-size:14px;margin:18px 0 0}
 @media (max-width:900px){
   .grid.c4{grid-template-columns:repeat(2,1fr)}
   .grid.c3{grid-template-columns:1fr}
